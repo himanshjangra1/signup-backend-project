@@ -3,9 +3,9 @@ const Sechema = mongoose.Schema;
 const ObjectId = mongoose.ObjectId;
 
 const user = {
-    email = "String",
-    password = "String",
-    name = "String"
+    email = String,
+    password = String,
+    name = String
 }
 
 const UserModel = mongoose.model("users", user);
