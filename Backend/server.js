@@ -1,5 +1,9 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
+const { UserModel } = require('./db.js');
+const { default: mongoose } = require('mongoose');
+
+mongoose.connect("mongodb+srv://himanshujangra70152_db_user:c3IcRcnr3I0nvF3f@cluster0.xdymgoi.mongodb.net/signup_page");
 
 const JWT_SECRET = "kldjkdl89e3rlkjdfoet";
 const app = express();
