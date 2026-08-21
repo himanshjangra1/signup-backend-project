@@ -3,7 +3,6 @@ const jwt = require('jsonwebtoken');
 const { UserModel } = require('./db.js');
 const { default: mongoose } = require('mongoose');
 
-
 mongoose.connect("");
 
 const JWT_SECRET = "kldjkdl89e3rlkjdfoet";
